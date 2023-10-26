@@ -5,14 +5,16 @@
 body {
   background-color: #1B1A1B;
   color: #FFFFFF;
+  margin: 0;
 }
 
-blockquote {
+.blockquote {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .wrapper {
-  width: 1200px;
-  padding: 30px;
+  max-width: 1200px;
+  padding: 10px 0 0 30px; /*Верхний отступ задан мной*/
   margin: 0 auto;
 }
